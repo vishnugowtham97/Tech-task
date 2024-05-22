@@ -6,6 +6,7 @@ const Task3 = () => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [add, setAdd] = useState([
+    // mock array of object data
     {
       id: 1,
       name: "Mark",
@@ -28,9 +29,9 @@ const Task3 = () => {
       complete: true,
     },
   ]);
-  const [ids, setId] = useState(0);
-  const [isEditing, setIsEditing] = useState(false);
-  const [editId, setEditId] = useState(null);
+  const [ids, setId] = useState(0); //Iitial id set to 0
+  const [isEditing, setIsEditing] = useState(false); //initially isediting is set to false
+  const [editId, setEditId] = useState(null); //initially edit id set to false
 
   const handleSubmit = (event) => {
     event.preventDefault();

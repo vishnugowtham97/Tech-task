@@ -9,12 +9,14 @@ const Userdetail = () => {
   const URL = "https://jsonplaceholder.typicode.com/posts";
 
   useEffect(() => {
+    // using axios to fetch data
     axios.get(URL).then((res) => setData(res.data));
   }, []);
 
   return (
     <div className="container">
       <div className="row">
+        {/* click to fetch data  */}
         <button
           style={{ marginTop: "2rem", padding: "25px", borderRadius: "25px" }}
           onClick={() => dispatch(fetchData(data))}
