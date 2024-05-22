@@ -43,12 +43,12 @@ ul li {
 button {
   background-color: #4caf50;
   border: none;
-  color: white;
+  color: black;
   padding: 8px 12px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 15px;
   cursor: pointer;
 }
 
