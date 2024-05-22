@@ -8,7 +8,7 @@ function Navbar() {
       <h3> Round-3 Assesment</h3>
       <div>
         <li>
-          <Link to="/task2">Redux_PAgination_export</Link>
+          <Link to="/">Redux_PAgination_export</Link>
         </li>
       </div>
       <div>

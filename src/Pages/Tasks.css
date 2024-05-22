@@ -1,4 +1,10 @@
 /*TAsk1 Pagination */
+.task2,
+.task3 {
+  margin-top: 5rem;
+  padding: 10px;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;

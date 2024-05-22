@@ -70,7 +70,7 @@ const Task3 = () => {
   };
 
   return (
-    <div>
+    <div className="task3">
       <div className="crud-operation">
         <h3 className="heading">CRUD Operation with local variable</h3>
         <form onSubmit={handleSubmit}>
